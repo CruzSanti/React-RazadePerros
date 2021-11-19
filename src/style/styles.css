@@ -8,6 +8,23 @@ ul {
   margin: 0px;
 }
 
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.mainContainer > main {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.mainContainer > footer {
+  background-color: red;
+  padding: 10px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -80,6 +97,7 @@ ul {
 
 .breedCardContainer {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .breedCard {
@@ -115,3 +133,9 @@ ul {
   border-top-left-radius: 10px;
 }
 
+.backGroundRojo {
+  background-color: red;
+}
+.backGroundVerde {
+  background-color: green;
+}
